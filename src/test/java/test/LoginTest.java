@@ -21,6 +21,7 @@ public class LoginTest {
 	public void doLogin() {
 		driver.get("http:gmail.com");
 		driver.findElement(By.id("Email")).sendKeys("w2automation");
+		driver.findElement(By.id("Password")).sendKeys("w2automation");
 	}
 	
 	@AfterSuite
